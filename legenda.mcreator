@@ -23,10 +23,46 @@
       "name": "Hellfurnace",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "hellfurnace"
+    },
+    {
+      "name": "Titansteel",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titansteel"
+    },
+    {
+      "name": "Kaneroseka",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaneroseka"
+    },
+    {
+      "name": "Lavasteel",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lavasteel"
+    },
+    {
+      "name": "GigantsSteel",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gigants_steel"
     }
   ],
   "variable_elements": [],
@@ -39,7 +75,10 @@
     },
     "en_us": {
       "block.legenda.bedrockore": "Bedrockore",
+      "item.legenda.gigants_steel": "Gigants Steel",
+      "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.unbrakingingot": "Unbrakingingot",
+      "item.legenda.titansteel": "Titansteel",
       "block.legenda.hellfurnace": "Hellfurnace"
     }
   },
