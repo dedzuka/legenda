@@ -1,24 +1,29 @@
 
 package net.mcreator.legenda.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.legenda.LegendaModElements;
+
 @LegendaModElements.ModElement.Tag
 public class GigantsSteelItem extends LegendaModElements.ModElement {
-
 	@ObjectHolder("legenda:gigants_steel")
 	public static final Item block = null;
-
 	public GigantsSteelItem(LegendaModElements instance) {
 		super(instance, 5);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.RARE));
 			setRegistryName("gigants_steel");
@@ -38,7 +43,5 @@ public class GigantsSteelItem extends LegendaModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

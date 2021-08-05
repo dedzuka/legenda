@@ -23,7 +23,7 @@
       "name": "Hellfurnace",
       "type": "block",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "hellfurnace"
@@ -70,7 +70,11 @@
   "language_map": {
     "ru_ru": {
       "block.legenda.bedrockore": "бэдрокавая руда",
+      "item.legenda.kaneroseka": "Kaneroseka",
+      "item.legenda.gigants_steel": "Gigants Steel",
       "item.legenda.unbrakingingot": "нерушимый слиток",
+      "item.legenda.titansteel": "Titansteel",
+      "item.legenda.lavasteel": "Lavasteel",
       "block.legenda.hellfurnace": "адская печь"
     },
     "en_us": {
@@ -79,6 +83,7 @@
       "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.unbrakingingot": "Unbrakingingot",
       "item.legenda.titansteel": "Titansteel",
+      "item.legenda.lavasteel": "Lavasteel",
       "block.legenda.hellfurnace": "Hellfurnace"
     }
   },
