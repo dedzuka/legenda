@@ -1,0 +1,68 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Unbrakingingot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unbrakingingot"
+    },
+    {
+      "name": "Bedrockore",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrockore"
+    },
+    {
+      "name": "Hellfurnace",
+      "type": "block",
+      "sortid": 3,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hellfurnace"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "block.legenda.bedrockore": "бэдрокавая руда",
+      "item.legenda.unbrakingingot": "нерушимый слиток",
+      "block.legenda.hellfurnace": "адская печь"
+    },
+    "en_us": {
+      "block.legenda.bedrockore": "Bedrockore",
+      "item.legenda.unbrakingingot": "Unbrakingingot",
+      "block.legenda.hellfurnace": "Hellfurnace"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "legenda",
+    "modName": "legend\u0027a",
+    "version": "1.0.0",
+    "author": "holix, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.legenda",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
