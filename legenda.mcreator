@@ -20,13 +20,40 @@
       "registry_name": "bedrockore"
     },
     {
-      "name": "Hellfurnace",
-      "type": "block",
-      "sortid": 3,
-      "compiles": false,
+      "name": "Lavasteel",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "hellfurnace"
+      "registry_name": "lavasteel"
+    },
+    {
+      "name": "GigantsSteel",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gigants_steel"
+    },
+    {
+      "name": "Titansteel",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titansteel"
+    },
+    {
+      "name": "Kaneroseka",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaneroseka"
     }
   ],
   "variable_elements": [],
@@ -34,13 +61,19 @@
   "language_map": {
     "ru_ru": {
       "block.legenda.bedrockore": "бэдрокавая руда",
+      "item.legenda.gigants_steel": "Gigants Steel",
+      "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.unbrakingingot": "нерушимый слиток",
-      "block.legenda.hellfurnace": "адская печь"
+      "item.legenda.titansteel": "Titansteel",
+      "item.legenda.lavasteel": "лавасталь"
     },
     "en_us": {
       "block.legenda.bedrockore": "Bedrockore",
+      "item.legenda.gigants_steel": "Gigants Steel",
+      "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.unbrakingingot": "Unbrakingingot",
-      "block.legenda.hellfurnace": "Hellfurnace"
+      "item.legenda.titansteel": "Titansteel",
+      "item.legenda.lavasteel": "Lavasteel"
     }
   },
   "foldersRoot": {
