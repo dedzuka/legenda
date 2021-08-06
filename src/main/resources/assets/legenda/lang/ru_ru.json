@@ -1,11 +1,19 @@
 {
-  "block.legenda.bedrockore": "бэдрокавая руда",
   "item.legenda.gigants_steel": "Gigants Steel",
+  "item.legenda.unbrakingingot": "нерушимый слиток",
+  "item.legenda.steelingot": "Steelingot",
+  "block.legenda.kanerosekaore": "Kanerosekaore",
+  "block.legenda.hellfurnace": "адская печь",
+  "item.legenda.lavasteel_sword": "Lavasteel Sword",
+  "block.legenda.bedrockore": "бэдрокавая руда",
   "item.legenda.kaneroseka": "Kaneroseka",
   "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
-  "item.legenda.unbrakingingot": "нерушимый слиток",
   "item.legenda.titansteel": "Titansteel",
   "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
+  "item.legenda.cobalt_sword": "Cobalt Sword",
   "item.legenda.lavasteel": "лавасталь",
-  "block.legenda.hellfurnace": "адская печь"
+  "item.legenda.titansteel_sword": "Titansteel Sword",
+  "item.legenda.steel_sword": "Steel Sword",
+  "item.legenda.cobalt": "Cobalt",
+  "item.legenda.steelstick": "Steelstick"
 }

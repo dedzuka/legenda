@@ -2,6 +2,7 @@
   "item.legenda.giantsteel_sword": "Giantsteel Sword",
   "item.legenda.gigants_steel": "Gigants Steel",
   "item.legenda.unbrakingingot": "Unbrakingingot",
+  "item.legenda.steelingot": "Steelingot",
   "block.legenda.kanerosekaore": "Kanerosekaore",
   "block.legenda.hellfurnace": "Hellfurnace",
   "item.legenda.lavasteel_sword": "Lavasteel Sword",
@@ -14,5 +15,7 @@
   "item.legenda.lavasteel": "Lavasteel",
   "item.legenda.titansteel_sword": "Titansteel Sword",
   "block.legenda.giantsteelore": "Giantsteelore",
-  "item.legenda.steel_sword": "Steel Sword"
+  "item.legenda.steel_sword": "Steel Sword",
+  "item.legenda.cobalt": "Cobalt",
+  "item.legenda.steelstick": "Steelstick"
 }

@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Lavasteel"
+        "value": "CUSTOM:Cobalt"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Lavasteel"
+        "value": "CUSTOM:Cobalt"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LavasteelSword"
+      "value": "CUSTOM:CobaltSword"
     },
-    "name": "lavasteel_sword_recipe",
+    "name": "cobaltswordrecipe",
     "namespace": "mod"
   }
 }
