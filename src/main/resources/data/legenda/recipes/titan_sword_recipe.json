@@ -1,0 +1,24 @@
+{
+  "group": "legenda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "legenda:titansteel"
+    },
+    "1": {
+      "item": "legenda:titansteel"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "legenda:titansteel_sword",
+    "count": 1
+  }
+}

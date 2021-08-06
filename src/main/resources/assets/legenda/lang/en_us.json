@@ -1,9 +1,16 @@
 {
-  "block.legenda.bedrockore": "Bedrockore",
+  "item.legenda.giantsteel_sword": "Giantsteel Sword",
   "item.legenda.gigants_steel": "Gigants Steel",
-  "item.legenda.kaneroseka": "Kaneroseka",
   "item.legenda.unbrakingingot": "Unbrakingingot",
+  "block.legenda.hellfurnace": "Hellfurnace",
+  "item.legenda.lavasteel_sword": "Lavasteel Sword",
+  "block.legenda.bedrockore": "Bedrockore",
+  "item.legenda.kaneroseka": "Kaneroseka",
+  "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
   "item.legenda.titansteel": "Titansteel",
+  "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
+  "item.legenda.cobalt_sword": "Cobalt Sword",
   "item.legenda.lavasteel": "Lavasteel",
-  "block.legenda.hellfurnace": "Hellfurnace"
+  "item.legenda.titansteel_sword": "Titansteel Sword",
+  "item.legenda.steel_sword": "Steel Sword"
 }
