@@ -1,10 +1,11 @@
 {
   "block.legenda.bedrockore": "бэдрокавая руда",
-  "item.legenda.gigants_steel": "сталь гигантов",
-  "item.legenda.kaneroseka": "карасека",
+  "item.legenda.gigants_steel": "Gigants Steel",
+  "item.legenda.kaneroseka": "Kaneroseka",
+  "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
   "item.legenda.unbrakingingot": "нерушимый слиток",
-  "item.legenda.titansteel": "сталь титанов",
-  "block.legenda.kanerosekaore": "Kanerosekaore",
+  "item.legenda.titansteel": "Titansteel",
+  "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
   "item.legenda.lavasteel": "лавасталь",
-  "block.legenda.giantsteelore": "Giantsteelore"
+  "block.legenda.hellfurnace": "адская печь"
 }

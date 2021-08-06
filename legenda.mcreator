@@ -72,30 +72,197 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "giantsteelore"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_sword"
+    },
+    {
+      "name": "LavasteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lavasteel_sword_recipe"
+    },
+    {
+      "name": "DragonsteelSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonsteel_sword"
+    },
+    {
+      "name": "DragonsteelSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonsteel_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonLavasteelSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_lavasteel_sword"
+    },
+    {
+      "name": "LavasteelSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lavasteel_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonLavasteelSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_lavasteel_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitansteelSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titansteel_sword"
+    },
+    {
+      "name": "TitanSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_sword_recipe"
+    },
+    {
+      "name": "GiantSwordRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant_sword_recipe"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "GiantsteelSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giantsteel_sword"
+    },
+    {
+      "name": "LavasteelSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lavasteel_sword"
+    },
+    {
+      "name": "Hellfurnace",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hellfurnace"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "block.legenda.bedrockore": "бэдрокавая руда",
-      "item.legenda.gigants_steel": "сталь гигантов",
-      "item.legenda.kaneroseka": "карасека",
+      "item.legenda.gigants_steel": "Gigants Steel",
       "item.legenda.unbrakingingot": "нерушимый слиток",
-      "item.legenda.titansteel": "сталь титанов",
-      "block.legenda.kanerosekaore": "Kanerosekaore",
-      "item.legenda.lavasteel": "лавасталь",
-      "block.legenda.giantsteelore": "Giantsteelore"
+      "block.legenda.hellfurnace": "адская печь",
+      "block.legenda.bedrockore": "бэдрокавая руда",
+      "item.legenda.kaneroseka": "Kaneroseka",
+      "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
+      "item.legenda.titansteel": "Titansteel",
+      "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
+      "item.legenda.lavasteel": "лавасталь"
     },
     "en_us": {
-      "block.legenda.bedrockore": "Bedrockore",
+      "item.legenda.giantsteel_sword": "Giantsteel Sword",
       "item.legenda.gigants_steel": "Gigants Steel",
-      "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.unbrakingingot": "Unbrakingingot",
-      "item.legenda.titansteel": "Titansteel",
       "block.legenda.kanerosekaore": "Kanerosekaore",
+      "block.legenda.hellfurnace": "Hellfurnace",
+      "item.legenda.lavasteel_sword": "Lavasteel Sword",
+      "block.legenda.bedrockore": "Bedrockore",
+      "item.legenda.kaneroseka": "Kaneroseka",
+      "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
+      "item.legenda.titansteel": "Titansteel",
+      "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
+      "item.legenda.cobalt_sword": "Cobalt Sword",
       "item.legenda.lavasteel": "Lavasteel",
-      "block.legenda.giantsteelore": "Giantsteelore"
+      "item.legenda.titansteel_sword": "Titansteel Sword",
+      "block.legenda.giantsteelore": "Giantsteelore",
+      "item.legenda.steel_sword": "Steel Sword"
     }
   },
   "foldersRoot": {
