@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "legenda:blocks/tt",
+    "up": "legenda:blocks/tt",
+    "north": "legenda:blocks/tt",
+    "east": "legenda:blocks/tt",
+    "south": "legenda:blocks/tt",
+    "west": "legenda:blocks/tt",
+    "particle": "legenda:blocks/tt"
+  }
+}

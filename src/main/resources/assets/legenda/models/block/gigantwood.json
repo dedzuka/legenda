@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "legenda:blocks/www",
+    "up": "legenda:blocks/www",
+    "north": "legenda:blocks/gigant_wood",
+    "east": "legenda:blocks/gigant_wood",
+    "south": "legenda:blocks/gigant_wood",
+    "west": "legenda:blocks/gigant_wood",
+    "particle": "legenda:blocks/www"
+  }
+}

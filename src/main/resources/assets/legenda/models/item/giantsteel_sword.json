@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "legenda:items/test_sword_texture"
+    "layer0": "legenda:items/ee"
   }
 }
