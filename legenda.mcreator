@@ -54,6 +54,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "kaneroseka"
+    },
+    {
+      "name": "Kanerosekaore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kanerosekaore"
+    },
+    {
+      "name": "Giantsteelore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giantsteelore"
     }
   ],
   "variable_elements": [],
@@ -61,11 +79,13 @@
   "language_map": {
     "ru_ru": {
       "block.legenda.bedrockore": "бэдрокавая руда",
-      "item.legenda.gigants_steel": "Gigants Steel",
-      "item.legenda.kaneroseka": "Kaneroseka",
+      "item.legenda.gigants_steel": "сталь гигантов",
+      "item.legenda.kaneroseka": "карасека",
       "item.legenda.unbrakingingot": "нерушимый слиток",
-      "item.legenda.titansteel": "Titansteel",
-      "item.legenda.lavasteel": "лавасталь"
+      "item.legenda.titansteel": "сталь титанов",
+      "block.legenda.kanerosekaore": "Kanerosekaore",
+      "item.legenda.lavasteel": "лавасталь",
+      "block.legenda.giantsteelore": "Giantsteelore"
     },
     "en_us": {
       "block.legenda.bedrockore": "Bedrockore",
@@ -73,7 +93,9 @@
       "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.unbrakingingot": "Unbrakingingot",
       "item.legenda.titansteel": "Titansteel",
-      "item.legenda.lavasteel": "Lavasteel"
+      "block.legenda.kanerosekaore": "Kanerosekaore",
+      "item.legenda.lavasteel": "Lavasteel",
+      "block.legenda.giantsteelore": "Giantsteelore"
     }
   },
   "foldersRoot": {
