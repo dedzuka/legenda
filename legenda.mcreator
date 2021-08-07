@@ -609,6 +609,15 @@
       "ids": {},
       "registry_name": "titan_pickaxe_recipe",
       "path": "~/titansteel"
+    },
+    {
+      "name": "Test",
+      "type": "keybind",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
@@ -637,6 +646,7 @@
       "block.legenda.kanerosekaore": "Kanerosekaore",
       "item.legenda.raw_lavasteel": "Raw Lavasteel",
       "block.legenda.hellfurnace": "адская печь",
+      "key.legenda.test": "Test",
       "block.legenda.bedrockore": "бэдрокавая руда",
       "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
@@ -673,6 +683,7 @@
       "block.legenda.kanerosekaore": "Kanerosekaore",
       "item.legenda.raw_lavasteel": "Raw Lavasteel",
       "block.legenda.hellfurnace": "Hellfurnace",
+      "key.legenda.test": "Test",
       "block.legenda.bedrockore": "Bedrockore",
       "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
