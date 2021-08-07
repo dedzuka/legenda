@@ -20,15 +20,6 @@
       "registry_name": "bedrockore"
     },
     {
-      "name": "Hellfurnace",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hellfurnace"
-    },
-    {
       "name": "Titansteel",
       "type": "item",
       "sortid": 6,
@@ -212,6 +203,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lavasteel_sword_recipe"
+    },
+    {
+      "name": "SteelFurnace",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_furnace"
+    },
+    {
+      "name": "FurnaceGUI",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_gui"
+    },
+    {
+      "name": "SteelFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_furnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -221,7 +259,6 @@
       "item.legenda.giantsteel_sword": "Giantsteel Sword",
       "item.legenda.gigants_steel": "Gigants Steel",
       "item.legenda.unbrakingingot": "нерушимый слиток",
-      "block.legenda.hellfurnace": "адская печь",
       "item.legenda.lavasteel_sword": "Lavasteel Sword",
       "block.legenda.bedrockore": "бэдрокавая руда",
       "item.legenda.kaneroseka": "Kaneroseka",
@@ -229,6 +266,7 @@
       "item.legenda.titansteel": "Titansteel",
       "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
       "item.legenda.cobalt_sword": "Cobalt Sword",
+      "block.legenda.steel_furnace": "Steel Furnace",
       "item.legenda.lavasteel": "Lavasteel",
       "item.legenda.titansteel_sword": "Titansteel Sword",
       "item.legenda.steel_sword": "Steel Sword"
@@ -237,7 +275,6 @@
       "item.legenda.giantsteel_sword": "Giantsteel Sword",
       "item.legenda.gigants_steel": "Gigants Steel",
       "item.legenda.unbrakingingot": "Unbrakingingot",
-      "block.legenda.hellfurnace": "Hellfurnace",
       "item.legenda.lavasteel_sword": "Lavasteel Sword",
       "block.legenda.bedrockore": "Bedrockore",
       "item.legenda.kaneroseka": "Kaneroseka",
@@ -245,6 +282,7 @@
       "item.legenda.titansteel": "Titansteel",
       "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
       "item.legenda.cobalt_sword": "Cobalt Sword",
+      "block.legenda.steel_furnace": "Steel Furnace",
       "item.legenda.lavasteel": "Lavasteel",
       "item.legenda.titansteel_sword": "Titansteel Sword",
       "item.legenda.steel_sword": "Steel Sword"
