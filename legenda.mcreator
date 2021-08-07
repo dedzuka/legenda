@@ -567,7 +567,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/giantsteel"
     },
     {
       "name": "LavasteelPickaxeRecipe",
