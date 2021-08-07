@@ -205,15 +205,6 @@
       "registry_name": "lavasteel_sword_recipe"
     },
     {
-      "name": "SteelFurnace",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steel_furnace"
-    },
-    {
       "name": "FurnaceGUI",
       "type": "gui",
       "sortid": 19,
@@ -221,6 +212,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "furnace_gui"
+    },
+    {
+      "name": "SteelFurnace",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_furnace"
     },
     {
       "name": "SteelFurnaceUpdateTick",
@@ -250,6 +250,136 @@
           }
         ]
       }
+    },
+    {
+      "name": "Gigantisland",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gigantisland",
+      "path": "~/giantsteel"
+    },
+    {
+      "name": "Cobalt",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt",
+      "path": "~/cobalt"
+    },
+    {
+      "name": "Steelstick",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstick",
+      "path": "~/steel"
+    },
+    {
+      "name": "Cobaltswordrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobaltswordrecipe",
+      "path": "~/cobalt"
+    },
+    {
+      "name": "Cobaltore",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobaltore",
+      "path": "~/cobalt"
+    },
+    {
+      "name": "Kanerosekaore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kanerosekaore",
+      "path": "~/kaneroseka"
+    },
+    {
+      "name": "Mgigant",
+      "type": "mob",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mgigant",
+      "path": "~/giantsteel"
+    },
+    {
+      "name": "Steelstickrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelstickrecipe",
+      "path": "~/steel"
+    },
+    {
+      "name": "Cobaltnetherore",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobaltnetherore",
+      "path": "~/cobalt"
+    },
+    {
+      "name": "Gigantleaves",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gigantleaves",
+      "path": "~/giantsteel"
+    },
+    {
+      "name": "Steelingot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelingot",
+      "path": "~/steel"
+    },
+    {
+      "name": "Gigantwood",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gigantwood",
+      "path": "~/giantsteel"
+    },
+    {
+      "name": "Giantsteelore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giantsteelore",
+      "path": "~/giantsteel"
     }
   ],
   "variable_elements": [],
@@ -260,37 +390,84 @@
       "item.legenda.gigants_steel": "Gigants Steel",
       "item.legenda.unbrakingingot": "нерушимый слиток",
       "item.legenda.lavasteel_sword": "Lavasteel Sword",
+      "item.legenda.titansteel": "Titansteel",
+      "block.legenda.steel_furnace": "Steel Furnace",
+      "item.legenda.titansteel_sword": "Titansteel Sword",
+      "block.legenda.hellfurnace": "адская печь",
       "block.legenda.bedrockore": "бэдрокавая руда",
       "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
-      "item.legenda.titansteel": "Titansteel",
       "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
       "item.legenda.cobalt_sword": "Cobalt Sword",
-      "block.legenda.steel_furnace": "Steel Furnace",
       "item.legenda.lavasteel": "Lavasteel",
-      "item.legenda.titansteel_sword": "Titansteel Sword",
       "item.legenda.steel_sword": "Steel Sword"
     },
     "en_us": {
+      "block.legenda.gigantleaves": "Gigantleaves",
       "item.legenda.giantsteel_sword": "Giantsteel Sword",
       "item.legenda.gigants_steel": "Gigants Steel",
+      "item.legenda.mgigant_spawn_egg": "Mgigant Spawn Egg",
       "item.legenda.unbrakingingot": "Unbrakingingot",
+      "block.legenda.cobaltore": "Cobaltore",
+      "block.legenda.cobaltnetherore": "Cobaltnetherore",
+      "block.legenda.gigantwood": "Gigantwood",
       "item.legenda.lavasteel_sword": "Lavasteel Sword",
+      "item.legenda.titansteel": "Titansteel",
+      "block.legenda.steel_furnace": "Steel Furnace",
+      "item.legenda.titansteel_sword": "Titansteel Sword",
+      "item.legenda.cobalt": "Cobalt",
+      "biome.legenda.gigantisland": "Gigantisland",
+      "item.legenda.steelstick": "Steelstick",
+      "entity.legenda.mgigant": "Mgigant",
+      "item.legenda.steelingot": "Steelingot",
+      "block.legenda.kanerosekaore": "Kanerosekaore",
+      "block.legenda.hellfurnace": "Hellfurnace",
       "block.legenda.bedrockore": "Bedrockore",
       "item.legenda.kaneroseka": "Kaneroseka",
       "item.legenda.dragonsteel_sword": "Dragonsteel Sword",
-      "item.legenda.titansteel": "Titansteel",
       "item.legenda.dragon_lavasteel_sword": "Dragon Lavasteel Sword",
       "item.legenda.cobalt_sword": "Cobalt Sword",
-      "block.legenda.steel_furnace": "Steel Furnace",
       "item.legenda.lavasteel": "Lavasteel",
-      "item.legenda.titansteel_sword": "Titansteel Sword",
+      "block.legenda.giantsteelore": "Giantsteelore",
       "item.legenda.steel_sword": "Steel Sword"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "giantsteel",
+        "children": []
+      },
+      {
+        "name": "steel",
+        "children": []
+      },
+      {
+        "name": "lavasteel",
+        "children": []
+      },
+      {
+        "name": "cobalt",
+        "children": []
+      },
+      {
+        "name": "titansteel",
+        "children": []
+      },
+      {
+        "name": "dragons",
+        "children": []
+      },
+      {
+        "name": "bedrock",
+        "children": []
+      },
+      {
+        "name": "kaneroseka",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "legenda",

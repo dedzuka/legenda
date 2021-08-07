@@ -1,28 +1,11 @@
 package net.mcreator.legenda.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.legenda.LegendaModElements;
-import net.mcreator.legenda.LegendaMod;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
-
 @LegendaModElements.ModElement.Tag
 public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModElement {
+
 	public SteelFurnaceUpdateTickProcedure(LegendaModElements instance) {
 		super(instance, 20);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -46,10 +29,12 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 				LegendaMod.LOGGER.warn("Failed to load dependency world for procedure SteelFurnaceUpdateTick!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		double previousRecipe = 0;
 		previousRecipe = (double) (new Object() {
 			public double getValue(IWorld world, BlockPos pos, String tag) {
@@ -112,6 +97,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putDouble("recipe", 0);
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -122,6 +108,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putDouble("recipe", (-1));
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -140,6 +127,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putDouble("timer", 0);
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -248,6 +236,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 					BlockState _bs = world.getBlockState(_bp);
 					if (_tileEntity != null)
 						_tileEntity.getTileData().putDouble("timer", 0);
+
 					if (world instanceof World)
 						((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
@@ -316,6 +305,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
 								_tileEntity.getTileData().putDouble("fuel", 10);
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -325,6 +315,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
 								_tileEntity.getTileData().putDouble("maxFuel", 10);
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -361,6 +352,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
 								_tileEntity.getTileData().putDouble("fuel", 10);
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -370,6 +362,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
 								_tileEntity.getTileData().putDouble("maxFuel", 10);
+
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
@@ -381,6 +374,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 						BlockState _bs = world.getBlockState(_bp);
 						if (_tileEntity != null)
 							_tileEntity.getTileData().putDouble("timer", 0);
+
 						if (world instanceof World)
 							((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
@@ -408,6 +402,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 							return -1;
 						}
 					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - 1));
+
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -432,6 +427,7 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 								return -1;
 							}
 						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer")) + 1));
+
 					if (world instanceof World)
 						((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
@@ -457,8 +453,11 @@ public class SteelFurnaceUpdateTickProcedure extends LegendaModElements.ModEleme
 						return -1;
 					}
 				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "maxFuel"))) * 100));
+
 			if (world instanceof World)
 				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 		}
+
 	}
+
 }

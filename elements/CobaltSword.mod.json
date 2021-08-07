@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "test_sword_texture",
+    "texture": "cc",
     "customModelName": "Normal",
     "name": "Cobalt Sword",
     "specialInfo": [],

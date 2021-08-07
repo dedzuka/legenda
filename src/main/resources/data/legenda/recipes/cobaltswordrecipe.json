@@ -1,0 +1,24 @@
+{
+  "group": "legenda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "legenda:cobalt"
+    },
+    "1": {
+      "item": "legenda:cobalt"
+    },
+    "2": {
+      "item": "legenda:steelstick"
+    }
+  },
+  "result": {
+    "item": "legenda:cobalt_sword",
+    "count": 1
+  }
+}
