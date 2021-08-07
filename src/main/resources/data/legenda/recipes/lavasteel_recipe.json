@@ -1,0 +1,16 @@
+{
+  "group": "legenda",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "legenda:raw_lavasteel"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+    "item": "legenda:lavasteel",
+    "count": 1
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "legenda:items/rr"
+    "layer0": "legenda:items/steel_stick"
   }
 }

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rr",
+    "texture": "steel_stick",
     "customModelName": "Normal",
     "name": "Steelstick",
     "rarity": "COMMON",

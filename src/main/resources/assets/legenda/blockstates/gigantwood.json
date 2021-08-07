@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "legenda:block/gigantwood"
+    },
+    "facing=east": {
+      "model": "legenda:block/gigantwood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "legenda:block/gigantwood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "legenda:block/gigantwood",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "legenda:block/gigantwood",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "legenda:block/gigantwood",
+      "x": 90
     }
   }
 }

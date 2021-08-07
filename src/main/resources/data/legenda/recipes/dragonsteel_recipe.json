@@ -1,0 +1,16 @@
+{
+  "group": "legenda",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "legenda:dragon_ore"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    }
+  ],
+  "result": {
+    "item": "legenda:dragonsteel",
+    "count": 1
+  }
+}
